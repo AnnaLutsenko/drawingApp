@@ -221,6 +221,13 @@
                                 <rect key="frame" x="0.0" y="123" width="375" height="426"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Rm-DL-CAI" customClass="SendButton" customModule="DrawingApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Cw4-kd-PNI"/>
+                                </constraints>
+                                <state key="normal" title="ОТПРАВИТЬ"/>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mkP-v3-QXL">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -233,12 +240,15 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ZhP-Sa-7S9" secondAttribute="trailing" id="1Yw-WQ-9zc"/>
                             <constraint firstAttribute="trailing" secondItem="mkP-v3-QXL" secondAttribute="trailing" id="1zR-By-rd9"/>
+                            <constraint firstItem="9Rm-DL-CAI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="C3Y-Y0-Eiq"/>
+                            <constraint firstItem="9Rm-DL-CAI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="G1z-of-kPW"/>
                             <constraint firstItem="mkP-v3-QXL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HV5-d5-Vin"/>
                             <constraint firstItem="yCW-0E-NRy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="InK-Ry-Xrm"/>
                             <constraint firstItem="mkP-v3-QXL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KJD-ze-Oj6"/>
                             <constraint firstItem="X8q-rd-n7g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OU5-qB-MWA"/>
                             <constraint firstItem="X8q-rd-n7g" firstAttribute="top" secondItem="mkP-v3-QXL" secondAttribute="bottom" id="acA-C0-WOR"/>
                             <constraint firstItem="ZhP-Sa-7S9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="asE-CF-hUK"/>
+                            <constraint firstItem="9Rm-DL-CAI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ehM-Mi-l7b"/>
                             <constraint firstItem="yCW-0E-NRy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hCQ-yi-L96"/>
                             <constraint firstItem="yCW-0E-NRy" firstAttribute="top" secondItem="X8q-rd-n7g" secondAttribute="bottom" constant="48" id="kvb-8K-8Yz"/>
                             <constraint firstItem="ZhP-Sa-7S9" firstAttribute="top" secondItem="yCW-0E-NRy" secondAttribute="bottom" constant="48" id="luC-tM-ZwW"/>

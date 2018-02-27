@@ -18,10 +18,15 @@ class DrawingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        addGradientToView()
         initController()
     }
     
     func initController() {
+        viewWithColors.isHidden = true
+    }
+    
+    func addGradientToView() {
         let gradient = CAGradientLayer()
         gradient.frame = view.bounds
         gradient.colors = [UIColor.black.withAlphaComponent(0).cgColor, UIColor.black.withAlphaComponent(1).cgColor]

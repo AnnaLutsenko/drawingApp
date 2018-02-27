@@ -28,5 +28,22 @@ extension UIColor {
             blue: CGFloat(b) / 0xff, alpha: 1
         )
     }
+    
+    class func rgba(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat, _ a: CGFloat) -> UIColor {
+        let maxValue : CGFloat = 255
+        return UIColor(red: r / maxValue, green: g / maxValue, blue: b / maxValue, alpha: a)
+    }
+    
+    open class var customGrey : UIColor {
+        return UIColor.rgba(193, 193, 193, 1)
+    }
+    
+    open class var customLightGrey : UIColor {
+        return UIColor.rgba(251, 251, 251, 1)
+    }
+    
+    open class var customPurple : UIColor {
+        return UIColor.rgba(157, 181, 240, 1)
+    }
 }
 

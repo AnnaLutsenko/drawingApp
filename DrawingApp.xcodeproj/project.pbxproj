@@ -15,6 +15,7 @@
 		9567F3A2204419EF004A3B5B /* DrawingColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567F3A1204419EF004A3B5B /* DrawingColorButton.swift */; };
 		9567F3A420442B7E004A3B5B /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567F3A320442B7E004A3B5B /* UIColor+Ext.swift */; };
 		9567F3A620442CD1004A3B5B /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567F3A520442CD1004A3B5B /* DrawView.swift */; };
+		9567F3AE20455A35004A3B5B /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567F3AD20455A35004A3B5B /* SendButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9567F3A1204419EF004A3B5B /* DrawingColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingColorButton.swift; sourceTree = "<group>"; };
 		9567F3A320442B7E004A3B5B /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		9567F3A520442CD1004A3B5B /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		9567F3AD20455A35004A3B5B /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				9567F3A1204419EF004A3B5B /* DrawingColorButton.swift */,
+				9567F3AD20455A35004A3B5B /* SendButton.swift */,
 				9567F3A520442CD1004A3B5B /* DrawView.swift */,
 			);
 			path = View;
@@ -164,6 +167,7 @@
 				9567F39220441195004A3B5B /* DrawingViewController.swift in Sources */,
 				9567F3A620442CD1004A3B5B /* DrawView.swift in Sources */,
 				9567F3A420442B7E004A3B5B /* UIColor+Ext.swift in Sources */,
+				9567F3AE20455A35004A3B5B /* SendButton.swift in Sources */,
 				9567F39020441195004A3B5B /* AppDelegate.swift in Sources */,
 				9567F3A2204419EF004A3B5B /* DrawingColorButton.swift in Sources */,
 			);
