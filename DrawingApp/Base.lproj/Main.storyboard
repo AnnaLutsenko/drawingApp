@@ -139,7 +139,7 @@
                                     <constraint firstAttribute="trailing" secondItem="X8q-rd-n7g" secondAttribute="trailing" id="zsf-l1-KeG"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCW-0E-NRy" customClass="DrawView" customModule="DrawingApp" customModuleProvider="target">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCW-0E-NRy" customClass="DrawView" customModule="DrawingApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="123" width="375" height="426"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>

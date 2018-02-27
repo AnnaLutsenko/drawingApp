@@ -32,8 +32,8 @@ class DrawingViewController: UIViewController {
     
     func addGradientToView() {
         let gradient = CAGradientLayer()
-        gradient.frame = view.bounds
-        gradient.colors = [UIColor.black.withAlphaComponent(0).cgColor, UIColor.black.withAlphaComponent(1).cgColor]
+        gradient.frame = viewWithColors.bounds
+        gradient.colors = [UIColor.black.withAlphaComponent(0).cgColor, UIColor.black.withAlphaComponent(0.35).cgColor]
         viewWithColors.layer.insertSublayer(gradient, at: 0)
     }
     
@@ -58,9 +58,7 @@ class DrawingViewController: UIViewController {
     }
 
     @IBAction func undoBtnClicked(_ sender: UIButton) {
-        
-        drawView.layer.sublayers?.removeLast()
-        drawView.layer.layoutSublayers()
+        drawView.removeLastLayer()
     }
     
     @IBAction func doneBtnClicked(_ sender: UIButton) {

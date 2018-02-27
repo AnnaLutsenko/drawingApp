@@ -15,6 +15,7 @@ class DrawView: UIView {
     
     var path = UIBezierPath()
     var currentColor = UIColor.black
+    var mySublayers = [CAShapeLayer]()
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -22,7 +23,6 @@ class DrawView: UIView {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        path = UIBezierPath()
         path.lineWidth = 5
         lastPoint = touches.first?.location(in: self)
         path.move(to: lastPoint)
@@ -43,6 +43,9 @@ class DrawView: UIView {
         a.fillColor = nil
         a.lineWidth = path.lineWidth
         layer.addSublayer(a)
+        
+        path = UIBezierPath()
+        setNeedsDisplay()
     }
     
     override func draw(_ rect: CGRect) {
@@ -51,4 +54,7 @@ class DrawView: UIView {
         path.stroke()
     }
 
+    func removeLastLayer() {
+        layer.sublayers?.removeLast()
+    }
 }
