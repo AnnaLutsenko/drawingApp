@@ -58,9 +58,7 @@ class DrawingViewController: UIViewController {
     }
 
     @IBAction func undoBtnClicked(_ sender: UIButton) {
-        
-        drawView.layer.sublayers?.removeLast()
-        drawView.layer.layoutSublayers()
+        drawView.removeLastLayer()
     }
     
     @IBAction func doneBtnClicked(_ sender: UIButton) {
