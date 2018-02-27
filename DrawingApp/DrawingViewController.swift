@@ -32,8 +32,8 @@ class DrawingViewController: UIViewController {
     
     func addGradientToView() {
         let gradient = CAGradientLayer()
-        gradient.frame = view.bounds
-        gradient.colors = [UIColor.black.withAlphaComponent(0).cgColor, UIColor.black.withAlphaComponent(1).cgColor]
+        gradient.frame = viewWithColors.bounds
+        gradient.colors = [UIColor.black.withAlphaComponent(0).cgColor, UIColor.black.withAlphaComponent(0.35).cgColor]
         viewWithColors.layer.insertSublayer(gradient, at: 0)
     }
     
