@@ -85,6 +85,9 @@
                                                             <constraint firstAttribute="height" constant="55" id="lj8-fD-3Yn"/>
                                                         </constraints>
                                                         <state key="normal" image="textIcon"/>
+                                                        <connections>
+                                                            <action selector="textBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vxe-oI-aQG"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2x-Iu-K6E">
                                                         <rect key="frame" x="55" y="0.0" width="55" height="55"/>
@@ -104,6 +107,9 @@
                                                             <constraint firstAttribute="width" constant="55" id="uyj-0I-oMg"/>
                                                         </constraints>
                                                         <state key="normal" image="shapeIcon"/>
+                                                        <connections>
+                                                            <action selector="shapeBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jlJ-zC-TBv"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqw-c2-x6m">
                                                         <rect key="frame" x="165" y="0.0" width="55" height="55"/>
@@ -112,6 +118,9 @@
                                                             <constraint firstAttribute="width" constant="55" id="bH6-2W-o1d"/>
                                                         </constraints>
                                                         <state key="normal" image="photoIcon"/>
+                                                        <connections>
+                                                            <action selector="addImgBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hFS-dw-YGn"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
