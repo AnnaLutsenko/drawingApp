@@ -87,6 +87,7 @@ class DrawingViewController: UIViewController {
         tempTextView.textColor = selectedColor
         tempTextView.autocorrectionType = .no
         tempTextView.textAlignment = .center
+        tempTextView.backgroundColor = .clear
         tempTextView.becomeFirstResponder()
         view.addSubview(tempTextView)
     }
